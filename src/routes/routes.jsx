@@ -11,10 +11,10 @@ function Router() {
     return (
         <Routes>
             <Route element={<DefaultLayout />}>
-                <Route path='/' element={<Home />} />
-                <Route path='/filmes' element={<Movies />} />
-                <Route path='/series' element={<Series />} />
-                <Route path='/detalhe/:id' element={<Detail />} />
+                <Route path='/knaipmovies' element={<Home />} />
+                <Route path='/knaipmovies/filmes' element={<Movies />} />
+                <Route path='/knaipmovies/series' element={<Series />} />
+                <Route path='/knaipmovies/detalhe/:id' element={<Detail />} />
             </Route>
         </Routes>
     )

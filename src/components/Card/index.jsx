@@ -3,7 +3,7 @@ import { Container } from './styles'
 
 function Card({ item }) {
     function handleClick() {
-        window.location.href = `/detalhe/${item.id}`
+        window.location.href = `/knaipmovies/detalhe/${item.id}`
     }
 
     return (

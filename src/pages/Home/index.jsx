@@ -52,7 +52,7 @@ function Home() {
                             <h1>{movies.title}</h1>
                             <p>{movies.overview}</p>
                             <ContainerButtons>
-                                <Button red onClick={() => navigate(`/detalhe/${movies.id}`)}>Assista agora!</Button>
+                                <Button red onClick={() => navigate(`/knaipmovies/detalhe/${movies.id}`)}>Assista agora!</Button>
                                 <Button onClick={() => setShowModal(true)}>
                                     Veja o trailer!
                                 </Button>

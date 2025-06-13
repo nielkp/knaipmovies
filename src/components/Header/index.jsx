@@ -35,21 +35,21 @@ function Header() {
 
             <Menu>
                 <Li $isActive={pathname === '/'}>
-                    <Link to="/">Home</Link>
+                    <Link to="/knaipmovies">Home</Link>
                 </Li>
                 <Li $isActive={pathname.includes('filmes')}>
-                    <Link to="/filmes">Filmes</Link>
+                    <Link to="/knaipmovies/filmes">Filmes</Link>
                 </Li>
                 <Li $isActive={pathname.includes('series')}>
-                    <Link to="/series">Séries</Link>
+                    <Link to="/knaipmovies/series">Séries</Link>
                 </Li>
             </Menu>
 
             {isMenuOpen && (
                 <MobileMenu>
-                    <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
-                    <li><Link to="/filmes" onClick={() => setIsMenuOpen(false)}>Filmes</Link></li>
-                    <li><Link to="/series" onClick={() => setIsMenuOpen(false)}>Séries</Link></li>
+                    <li><Link to="/knaipmovies" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+                    <li><Link to="/knaipmovies/filmes" onClick={() => setIsMenuOpen(false)}>Filmes</Link></li>
+                    <li><Link to="/knaipmovies/series" onClick={() => setIsMenuOpen(false)}>Séries</Link></li>
                 </MobileMenu>
             )}
         </Container>
