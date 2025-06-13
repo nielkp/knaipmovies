@@ -656,7 +656,7 @@ Please change the parent <Route path="${_}"> to <Route path="${_==="/"?"*":`${_}
     font-size: 12px;
     padding: 15px 5px;
   }
-`;function jT(){return Q.jsxs(UT,{children:[Q.jsxs("p",{children:["© ",new Date().getFullYear()," Daniel Knaip • Todos os direitos reservados!"]}),Q.jsx("p",{children:"🎞️ Knaip Movies 📽️"}),Q.jsx("p",{children:"Feito com ♥"})]})}const HT="/knaipmovies/assets/logo-BQM7jODJ.png",qT=ge.div`
+`;function jT(){return Q.jsxs(UT,{children:[Q.jsxs("p",{children:["© ",new Date().getFullYear()," Daniel Knaip • Todos os direitos reservados!"]}),Q.jsx("p",{children:"🎞️ Knaip Movies 📽️"}),Q.jsx("p",{children:"Feito com ♥"})]})}const HT="/assets/logo-BQM7jODJ.png",qT=ge.div`
     min-height: 60px;
     z-index: 1000;
     position: fixed;
