@@ -40,6 +40,7 @@ function Home() {
         getAllData()
     }, [])
 
+    
     return (
         <>
             {movies && (
